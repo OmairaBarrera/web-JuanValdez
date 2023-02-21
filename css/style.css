@@ -1,0 +1,26 @@
+.container{
+    height: 100vh;
+    border: solid;
+}
+header{
+    height: 100px;
+}
+main{
+    height: calc(100vh - 155px);
+}
+.img-coffee{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url(/img/Café-chocolate-y-avellana-Juan-Valdez-1024x683.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat; 
+    border: groove; 
+}
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
