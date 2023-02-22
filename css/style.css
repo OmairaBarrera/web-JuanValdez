@@ -1,3 +1,4 @@
+
 .container{
     height: 100vh;
     border: solid;
@@ -7,6 +8,24 @@ header{
 }
 main{
     height: calc(100vh - 155px);
+    background-image: url(/img/fondo.webp);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+}
+
+.btn-buy{
+    margin: 3rem;
+    padding: 10px 100px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.671);
+    font-family: 'Kaushan Script', cursive;
+    font-size: large;
+}
+.btn-buy:hover{
+    background: white;
+    transition: .3s;
 }
 .img-coffee{
     width: 80%;
@@ -15,12 +34,30 @@ main{
     background-image: url(/img/Café-chocolate-y-avellana-Juan-Valdez-1024x683.jpg);
     background-size:cover;
     background-position:center;
-    background-repeat:no-repeat; 
-    border: groove; 
+    background-repeat:no-repeat;   
+    border-radius: 16rem; 
+    border: 7px solid white;
 }
 footer{
     height: 50px;
     text-align: center;
+    font-size: 10px;
     background-color: black;
     color: white;
+    padding: 1rem;
+}
+.col{
+    padding: 3.5rem;
+}
+
+h1, a, p{
+    font-family: 'Kaushan Script', cursive;
+}
+p{
+    text-align: justify;
+}
+
+.descripcion{
+    background-color: #ece3e3b3;
+    padding: 1rem;
 }
