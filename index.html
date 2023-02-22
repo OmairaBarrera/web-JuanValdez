@@ -13,35 +13,63 @@
     <title>Juan Valdez</title>
 </head>
 <body>
-    <section class="container">
+    <section class="container-fluid">
         <header class="row">
-            <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="/img/Juanvaldez.svg.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-                    Juan Valdez
-                  </a>
-            </nav>
+                    <a class="navbar-brand" href="#">
+                        <img src="/img/Juanvaldez.svg.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                        Juan Valdez
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
         </header>
         <main class="row justify-content-around align-items-center">
-            <section class="col">
-                <div class="descripcion">
-                    <h1>Descripción</h1>
-                <p>
-                    Juan Valdez es un personaje y una marca que identifica el café de Colombia. Fue creado por la agencia Doyle Dane Bernbach (DDB) en 1959 por encargo de la Federación Nacional de Cafeteros (FNC) con el fin de representar a los más de 500.000 cafeteros colombianos y sus familias.
-                </p>  
-                <p>
-                    Nuestras tiendas y cafés son la forma más directa de llegar a vivir una experiencia auténtica de café 100% premium colombiano y conocer a través de los orígenes un universo de sabores y aromas de la mano de nuestros baristas, quienes todos los días preparan con orgullo miles de tazas en cada una de nuestras tiendas.
-                </p>    
-                <p>
-                    Como marca, representamos alrededor del mundo los valores y tradiciones de los caficultores colombianos, le entregamos a los caficultores mayor valor por la calidad del café e importantes recursos de regalías por la venta de cada taza o producto que lleve su firma en el mundo.
-                </p>  
-                </div> 
-                <button class="btn-buy">BUY</button> 
+            
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Descripción</h1>
+                            <p>
+                                Juan Valdez es un personaje y una marca que identifica el café de Colombia. Fue creado por la agencia Doyle Dane Bernbach (DDB) en 1959 por encargo de la Federación Nacional de Cafeteros (FNC) con el fin de representar a los más de 500.000 cafeteros colombianos y sus familias.
+                            </p>  
+                            <p>
+                                Nuestras tiendas y cafés son la forma más directa de llegar a vivir una experiencia auténtica de café 100% premium colombiano y conocer a través de los orígenes un universo de sabores y aromas de la mano de nuestros baristas, quienes todos los días preparan con orgullo miles de tazas en cada una de nuestras tiendas.
+                            </p>    
+                            <p>
+                                Como marca, representamos alrededor del mundo los valores y tradiciones de los caficultores colombianos, le entregamos a los caficultores mayor valor por la calidad del café e importantes recursos de regalías por la venta de cada taza o producto que lleve su firma en el mundo.
+                            </p>  
+                            
+                            <button class="btn-buy">BUY</button> 
+                        </div>
+                        <div class="col">
+                            <img src="/img/Café-chocolate-y-avellana-Juan-Valdez-1024x683.jpg"/>
+
+                        </div>
+                    </div>
+                    
+                </div>
             </section>
-            <aside class="col">
-                <div class="img-coffee"></div>
-            </aside>
         </main>
         <footer class="row">
             <h2 style="font-size: 20px;">&copy; 2023 CAMPUS SPUTNIK - Todos los derechos reservados</h2>

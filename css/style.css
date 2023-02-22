@@ -1,12 +1,5 @@
 
-.container{
-    height: 100vh;
-    border: solid;
-}
-header{
-    height: 100px;
-}
-main{
+/* main{
     height: calc(100vh - 155px);
     background-image: url(/img/fondo.webp);
     background-size:cover;
@@ -35,7 +28,7 @@ main{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;   
-    border-radius: 16rem; 
+    border-radius: 20rem; 
     border: 7px solid white;
 }
 footer{
@@ -60,4 +53,4 @@ p{
 .descripcion{
     background-color: #ece3e3b3;
     padding: 1rem;
-}
+} */
